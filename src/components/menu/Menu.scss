@@ -1,0 +1,22 @@
+.menu {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  text-transform: uppercase;
+
+  li {
+    padding: 0 15px 5px 15px;
+    margin: 0 15px;
+    a {
+      font-size: 1.2em;
+      color: $main-color;
+      cursor: pointer;
+    }
+  }
+
+  &--item {
+    &-selected {
+      border-bottom: 3px solid $main-color;
+    }
+  }
+}

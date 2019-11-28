@@ -1,0 +1,59 @@
+.languages {
+  .language{ 
+    display: flex;
+    font-weight: 400;
+    font-size: 0.85em;
+    &-name {
+      padding-right: 10px;
+      flex: 20%;
+      text-align: right;
+    }
+    &-title {
+      padding-right: 10px;
+      text-align: center;
+      flex: 30%;
+    }
+    &-level {
+      flex: 40%;
+      color: $secondary-color;
+      &--point {
+        margin-right: 5px;
+        &-off {
+          color: #dedede;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $desktop-screen-min){
+  .languages {
+    .language{ 
+      &-name {
+        flex: 30%;
+      }
+      &-title {
+        flex: 30%;
+      }
+      &-level {
+        flex: 30%;
+      }
+    }
+  }
+}
+
+@media (max-width: $small-phone-screen-min){
+  .languages {
+    .language{ 
+      &-name {
+        flex: 25%;
+      }
+      &-title {
+        flex: 25%;
+      }
+      &-level {
+        flex: 50%;
+      }
+    }
+  }
+}

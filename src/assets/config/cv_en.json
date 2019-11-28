@@ -1,0 +1,149 @@
+{
+  "link": "https://github.com/nahuelvr/another-awesome-react-cv",
+  "header": {
+    "name": "John",
+    "surname1": "Doe",
+    "surname2": "",
+    "position": "Software Engineer | Full Stack Developer",
+    "city": "Málaga, Spain",
+    "extraInfo": "22th February 1990 in Any City, Any Country",
+    "photoLink": "http://www.rebsheldtechnologies.com/img/images/profile.jpg",
+    "contact": {
+      "linkedin": "anyJohnDoeProfile",
+      "github": "anyJohnDoeProfile",
+      "email": "anyJohnDoeProfile@anymail.com"
+    }
+  },
+  "experience": [
+    {
+      "startYear": 2012,
+      "startMonth": "September",
+      "endYear": null,
+      "endMonth": null,
+      "position": "Account Manager",
+      "company": "The Company",
+      "country": "Madrid, ES",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "tasks" : [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Praesent eu fermentum lectus, vel rutrum purus. Fusce sagittis auctor arcu, at dictum arcu porta non. Proin nulla mi, interdum quis lobortis in, posuere non ipsum. Donec viverra libero in velit ornare sollicitudin",
+        "Donec suscipit nisi vitae lacus iaculis hendrerit ac vel orci."
+      ],
+      "technologies": [
+        "Tech1", 
+        "Tech2", 
+        "Tech3", 
+        "Tech4"
+      ]
+    },
+    {
+      "startYear": 2009,
+      "startMonth": "January",
+      "endYear": 2011,
+      "endMonth": "December",
+      "position": "Web developer",
+      "company": "Grey Company",
+      "country": "Paris, FR",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "tasks" : [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Praesent eu fermentum lectus, vel rutrum purus. Fusce sagittis auctor arcu, at dictum arcu porta non. Proin nulla mi, interdum quis lobortis in, posuere non ipsum. Donec viverra libero in velit ornare sollicitudin",
+        "Donec suscipit nisi vitae lacus iaculis hendrerit ac vel orci."
+      ],
+      "technologies": [
+        "LongerTech5", 
+        "LongerTech6", 
+        "LongerTech7", 
+        "LongerTech8", 
+        "LongerTech9", 
+        "LongerTech10", 
+        "Tech11", 
+        "Tech12", 
+        "Tech13", 
+        "Tech14"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "startYear": 2012,
+      "endYear": 2014,
+      "title": "MBA in Leadership and Sustainability",
+      "avgMark": "9/10",
+      "university": "University of Paris, FR",
+      "majorSubjects": [
+        "Corporate investment management",
+        "Portfolio management",
+        "Hedge fund management",
+        "Small business and corporate finance",
+        "Investments",
+        "Securities analysis",
+        "Borrowing",
+        "Fundraising",
+        "Collections",
+        "Disbursements",
+        "International finance"
+      ],
+      "thesis": "A Study into the Feasibility and Deployment of the Four-Factor Asset Pricing Model"
+    },
+    {
+      "startYear": 2008,
+      "endYear": 2012,
+      "title": "Bachelor's Degree in Chemistry",
+      "avgMark": "8.5/10",
+      "university": "University of Málaga, ES",
+      "majorSubjects": [
+        "Analytical chemistry",
+        "Biochemistry",
+        "Environmental chemistry",
+        "Inorganic chemistry",
+        "Organic chemistry",
+        "Physical chemistry",
+        "Polymer and materials chemistry",
+        "Spectroscopy and crystallography"
+      ],
+      "thesis": "The study of some volatile organic compounds"
+    }
+  ],
+  "skills" : {
+    "skill1": [
+      "*Skill1.1", "Skill1.2", "*Skill1.3", "Skill1.4", "Skill1.5", "*Skill1.6", "Skill1.7"
+    ],
+    "skill2": [
+      "Skill2.1", "Skill2.2", "Skill2.3", "*Skill2.4", "Skill2.5", "Skill3.6"
+    ],
+    "skill3": [
+      "Skill3.1", "*Skill3.2", "*Skill3.3", "Skill3.4"
+    ],
+    "skill4": [
+      "Skill4.1", "Skill4.2", "*Skill4.3", "*Skill4.4", "Skill4.5"
+    ],
+    "others": [
+      "*OtherSkill1", "OtherSkill2", "OtherSkill3", "OtherSkill4", "*OtherSkill5", "OtherSkill6", "OtherSkill7"
+    ]
+  },
+  "languages" : [
+    {
+      "name" : "Spanish",
+      "level": 6,
+      "levelTitle": "Mother tongue"
+    },
+    {
+      "name" : "English",
+      "level": 4,
+      "levelTitle": "B2"
+    },
+    {
+      "name" : "French",
+      "level": 5,
+      "levelTitle": "C1"
+    }
+  ],
+  "references": [
+    {
+      "name": "Leonardo Smith",
+      "email": "lsmith@fakeemail.com",
+      "phone": "+34 555 555 555"
+    }
+  ]
+}

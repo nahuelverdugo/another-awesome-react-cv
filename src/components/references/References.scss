@@ -1,0 +1,33 @@
+.references {
+  &-list {
+    font-size: 0.85em;
+    margin-left: 20px;
+    &--empty {
+      font-weight: 400;
+    }
+  }
+
+  &-item{
+    margin-bottom: 10px;
+    &--name {
+      font-weight: 400;
+    }
+
+    &--title {
+      font-style: italic;
+    }
+
+    &--composed {
+      display: flex;
+    }
+
+    &--icon {
+      text-align: center;
+      flex: 15%;
+    }
+
+    &--value {
+      flex: 85%;
+    }
+  }
+}

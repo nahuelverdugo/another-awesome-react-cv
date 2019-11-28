@@ -1,0 +1,53 @@
+.experiences {
+  .experience {
+    &-info {
+      font-weight: 400;
+      
+      &--company, &--country {
+        margin-left: 5px;
+      }
+
+      &--company { 
+        text-transform: uppercase;
+      }
+    }
+
+    &-description {
+      text-align: justify;
+      margin-bottom: 3px;
+    }
+
+    &-tasks {
+      &--elem {
+        display: flex;
+        .bullet {
+          flex: 5%;
+          font-size: 0.75em;
+          padding: 0.3em 3px 0 0;
+          text-align: right;
+        }
+
+        .value {
+          flex: 95%;
+          text-align: justify;
+        }
+      }
+    }
+
+    &-technologies {
+      margin-bottom: 7px;
+      &-key {
+        margin-top: 3px;
+        font-size: 0.75em;
+        border-radius: .25em;
+        border: 1px solid $badge-color;
+        padding: 2px;
+        text-align: center;
+        white-space: nowrap;
+        display: inline-block;
+        vertical-align: baseline;
+        margin-right: 4px;
+      }
+    }
+  }
+}

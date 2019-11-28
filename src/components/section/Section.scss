@@ -1,0 +1,27 @@
+.section {
+  &--header {
+    color: $main-color;
+    font-size: 1.5em;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $divider-color;
+    margin-bottom: 12px;
+  }
+  &--title{
+    font-weight: 300;
+    margin-left: 10px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+
+    &::first-letter {
+      font-size: 1.4em;
+    }
+  }
+}
+
+@media (min-width: $phone-screen-min){
+  .section {
+    padding: 0 25px;
+  }
+}

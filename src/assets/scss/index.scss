@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+@import '_variables.scss';
+@import '_common.scss';
+@import '../../components/downloadFooter/DownloadFooter.scss';
+@import '../../components/references/References.scss';
+@import '../../components/experience/Experience.scss';
+@import '../../components/languages/Languages.scss';
+@import '../../components/education/Education.scss';
+@import '../../components/section/Section.scss';
+@import '../../components/skills/Skills.scss';
+@import '../../components/header/Header.scss';
+@import '../../components/menu/Menu.scss';
+@import '../../components/cv/CV.scss';
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: $main-color;
+}
+
+a:link, a:active, a:visited, a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+ul {
+  display: inline;
+  list-style: none;
+  li {
+    display: inline;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+a.link {
+  text-decoration: none;
+  color: $main-color;
+  &:visited {
+    color: $main-color;
+  }
+}

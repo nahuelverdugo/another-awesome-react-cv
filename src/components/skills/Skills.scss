@@ -1,0 +1,66 @@
+.skills {
+  .skill{ 
+    &-line {
+      font-size: 0.85em;
+    }
+    &-title {
+      font-weight: 400;
+    }
+    &-list {
+      ul {
+        &:before {
+          content: "- ";
+        }
+        padding: 0;
+        li {
+          strong {
+            font-weight: 400;
+          }
+        }
+        li:after {
+          content: ", ";
+        }
+        li:last-child:after {
+          content: "";
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $small-phone-screen-min){
+  .skills {
+    .skill{ 
+      &-line {
+        display: flex;
+      }
+      &-title {
+        flex: 30%;
+        padding-right: 7px;
+        text-align: right;
+      }
+      &-list {
+        flex: 70%;
+        &:before {
+          content: "";
+        }
+        ul {
+          &:before {
+            content: "";
+          }
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: $desktop-screen-min){
+  .skills {
+    .skill{ 
+      &-title {
+        flex: 25%;
+      }
+    }
+  }
+}

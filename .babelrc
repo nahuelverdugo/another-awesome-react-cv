@@ -1,0 +1,16 @@
+{
+  "presets": ["env","react"],
+  "plugins": [
+    "transform-object-rest-spread", "transform-class-properties"
+  ],
+  "env": {
+    "development": {
+      "plugins":[
+        ["react-intl", {
+          "messagesDir": "./src/messages/"
+        }]
+      ]
+    }
+  }
+}
+

@@ -1,0 +1,26 @@
+.education {
+  &-data {
+    &-title{
+      &--name {
+        font-weight: 400;
+      }
+    }
+  }
+
+  &-university {
+    font-size: 0.9em;
+    font-style: italic;
+  }
+
+  &-major-subjects, &-thesis {
+    font-size: 0.8em;
+    text-align: justify;
+    span {
+      font-style: italic;
+    }
+
+    ul {
+      padding-inline-start: 5px;
+    }
+  }
+}

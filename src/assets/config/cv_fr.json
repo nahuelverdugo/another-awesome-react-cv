@@ -1,0 +1,149 @@
+{
+  "link": "https://github.com/nahuelvr/another-awesome-react-cv",
+  "header": {
+    "name": "John",
+    "surname1": "Doe",
+    "surname2": "",
+    "position": "Software Engineer | Développeur Full Stack",
+    "city": "Málaga, Espagne",
+    "extraInfo": "22 février 1990 dans N'importe quelle ville, N'importe quel pays",
+    "photoLink": "http://www.rebsheldtechnologies.com/img/images/profile.jpg",
+    "contact": {
+      "linkedin": "anyJohnDoeProfile",
+      "github": "anyJohnDoeProfile",
+      "email": "anyJohnDoeProfile@anymail.com"
+    }
+  },
+  "experience": [
+    {
+      "startYear": 2012,
+      "startMonth": "Septembre",
+      "endYear": null,
+      "endMonth": null,
+      "position": "Gestionnaire de compte",
+      "company": "The Company",
+      "country": "Madrid, ES",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      "tasks" : [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Praesent eu fermentum lectus, vel rutrum purus. Fusce sagittis auctor arcu, at dictum arcu porta non. Proin nulla mi, interdum quis lobortis in, posuere non ipsum. Donec viverra libero in velit ornare sollicitudin",
+        "Donec suscipit nisi vitae lacus iaculis hendrerit ac vel orci."
+      ],
+      "technologies": [
+        "Tech1", 
+        "Tech2", 
+        "Tech3", 
+        "Tech4"
+      ]
+    },
+    {
+      "startYear": 2009,
+      "startMonth": "Janvier",
+      "endYear": 2011,
+      "endMonth": "December",
+      "position": "Web developer",
+      "company": "Grey Company",
+      "country": "Paris, FR",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "tasks" : [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Praesent eu fermentum lectus, vel rutrum purus. Fusce sagittis auctor arcu, at dictum arcu porta non. Proin nulla mi, interdum quis lobortis in, posuere non ipsum. Donec viverra libero in velit ornare sollicitudin",
+        "Donec suscipit nisi vitae lacus iaculis hendrerit ac vel orci."
+      ],
+      "technologies": [
+        "LongerTech5", 
+        "LongerTech6", 
+        "LongerTech7", 
+        "LongerTech8", 
+        "LongerTech9", 
+        "LongerTech10", 
+        "Tech11", 
+        "Tech12", 
+        "Tech13", 
+        "Tech14"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "startYear": 2012,
+      "endYear": 2014,
+      "title": "MBA en Leadership et Durabilité",
+      "avgMark": "9/10",
+      "university": "Université de Paris, FR",
+      "majorSubjects": [
+        "Gestion des investissements d'entreprise",
+        "Gestion de portefeuille",
+        "Gestion de fonds de couverture",
+        "Petites entreprises et finance d'entreprise",
+        "Investissements",
+        "Analyse de titres",
+        "Emprunt",
+        "Collecte de fonds",
+        "Collections",
+        "Décaissements",
+        "La finance internationale"
+      ],
+      "thesis": "Étude de faisabilité et de déploiement du modèle de tarification des actifs à quatre facteurs"
+    },
+    {
+      "startYear": 2008,
+      "endYear": 2012,
+      "title": "Baccalauréat en Chimie",
+      "avgMark": "8.5/10",
+      "university": "Université de Málaga, ES",
+      "majorSubjects": [
+        "Chimie analytique",
+        "Biochimie",
+        "Chimie de l'environnement",
+        "Chimie inorganique",
+        "Chimie organique",
+        "Chimie physique",
+        "Chimie des polymères et des matériaux",
+        "Spectroscopie et cristallographie"
+      ],
+      "thesis": "L'étude de certains composés organiques volatils"
+    }
+  ],
+  "skills" : {
+    "skill1": [
+      "*Compétence1.1", "Compétence1.2", "*Compétence1.3", "Compétence1.4", "Compétence1.5", "*Compétence1.6", "Compétence1.7"
+    ],
+    "skill2": [
+      "Compétence2.1", "Compétence2.2", "Compétence2.3", "*Compétence2.4", "Compétence2.5", "Compétence3.6"
+    ],
+    "skill3": [
+      "Compétence3.1", "*Compétence3.2", "*Compétence3.3", "Compétence3.4"
+    ],
+    "skill4": [
+      "Compétence4.1", "Compétence4.2", "*Compétence4.3", "*Compétence4.4", "Compétence4.5"
+    ],
+    "others": [
+      "*AutreCompétence1", "OtherCompétence2", "OtherCompétence3", "OtherCompétence4", "*OtherCompétence5", "OtherCompétence6", "OtherCompétence7"
+    ]
+  },
+  "languages" : [
+    {
+      "name" : "Espagnol",
+      "level": 6,
+      "levelTitle": "Langue maternelle"
+    },
+    {
+      "name" : "Anglais",
+      "level": 4,
+      "levelTitle": "B2"
+    },
+    {
+      "name" : "Français",
+      "level": 5,
+      "levelTitle": "C1"
+    }
+  ],
+  "references": [
+    {
+      "name": "Leonardo Smith",
+      "email": "lsmith@fakeemail.com",
+      "phone": "+34 555 555 555"
+    }
+  ]
+}
