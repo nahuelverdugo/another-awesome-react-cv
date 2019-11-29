@@ -1,11 +1,7 @@
 import { en } from './en'
-import { es } from './es'
-import { fr } from './fr'
 
 const langs = {
-    "en": en,
-    "es": es,
-    "fr": fr
+    "en": en
 };
 
 export default langs;

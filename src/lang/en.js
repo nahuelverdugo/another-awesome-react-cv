@@ -16,10 +16,10 @@ export const en = {
     "section.header.skills": "Skills",
     "section.header.languages": "Languages",
     "section.header.references": "References",
-    "skills.skill1": "Skills Set 1",
-    "skills.skill2": "Skills Set 2",
-    "skills.skill3": "Skills Set 3",
-    "skills.skill4": "Skills Set 4",
+    "skills.skill1": "Skill Set 1",
+    "skills.skill2": "Skill Set 2",
+    "skills.skill3": "Skill Set 3",
+    "skills.skill4": "Skill Set 4",
     "skills.others": "Others"
   }
 }
