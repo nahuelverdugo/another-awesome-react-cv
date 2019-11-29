@@ -4,11 +4,10 @@ import { sync as mkdirpSync } from 'mkdirp';
 
 const MESSAGES_PATTERN = './src/messages/**/*.json';
 const LANG_DIR = './src/lang/';
+const LANG_INDEX_PATH = `${LANG_DIR}index.js`;
 
 const TRANSLATE = 'TRANSLATE';
-
 const CHECK = 'CHECK TRANSLATION';
-
 const OLD = 'OLD TRANSLATION';
 
 const ESCAPED_CHARS = {
@@ -101,7 +100,8 @@ mkdirpSync(LANG_DIR);
 // const defaultLang = args[0] != null ? args[0] : 'en';
 // const destLangs = args[1] != null ? args[1].split(',') : ['es'];
 
-let destLangs = Object.keys(require('../assets/config/index.js').default.cvs);
+let langs = Object.keys(require('../assets/config/index.js').default.cvs);
+let destLangs = [ ...langs ];
 const defaultLang = destLangs[0];
 destLangs.splice(0, 1);
 
@@ -114,3 +114,13 @@ fs.writeFileSync(`${LANG_DIR}${defaultLang}.js`, `export const ${defaultLang} = 
   .substring(1)}\n}`);
 
 destLangs.forEach(lang => saveDestLang(lang, defaultMessages, oldDefaultMessages));
+
+if (fs.existsSync(LANG_INDEX_PATH)) {
+  fs.unlinkSync(LANG_INDEX_PATH);
+}
+
+fs.writeFileSync(LANG_INDEX_PATH, `${langs.map(lang => `import { ${lang} } from './${lang}'`).join('\n')}\n\n` + 
+  `const langs = {\n` +                                                            
+  `${langs.map((lang, i) => `  "${lang}": ${lang}${i < langs.length - 1 ? ',' : ''}`).join('\n')}` +
+  `\n}\n\n` +
+  `export default langs;`);

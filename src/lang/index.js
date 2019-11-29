@@ -1,7 +1,7 @@
 import { en } from './en'
 
 const langs = {
-    "en": en
-};
+  "en": en
+}
 
 export default langs;
