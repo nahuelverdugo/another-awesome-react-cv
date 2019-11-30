@@ -2,7 +2,7 @@
 
 This project is a simple, self-hosted landing CV site outside of the common social networks as Linkedin. The design was taken from another github project [YAAC: Another Awesome CV](https://github.com/darwiin/yaac-another-awesome-cv) which I used for my CV.
 
-For a live demo check [another-awesome-react-cv](https://another-awesome-react-cv.githug.io).
+For a live demo check: [another-awesome-react-cv](https://nahuelvr.com/another-awesome-react-cv/)
 
 ## How to use it
 

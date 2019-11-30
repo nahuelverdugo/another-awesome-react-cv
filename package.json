@@ -1,7 +1,7 @@
 {
   "name": "another-awesome-react-cv",
   "version": "1.0.0",
-  "homepage": "http://another-awesome-react-cv.github.io/",
+  "homepage": "https://nahuelvr.com/another-awesome-react-cv/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
