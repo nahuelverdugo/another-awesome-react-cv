@@ -37,6 +37,10 @@ In the "cvs" object you have to add a language code (en, es, fr, de, etc.) and a
 
 For translating the project from a console in the root directory of the project you have to do `npm install` and `npm run translate`. Once you have done this, you will find the translations files in `src/lang`. There will be one translation js file (e.g. fr.js) per each CV language configured and you have to check and translate them.
 
+### Colors
+
+Colors are also customizable from the file `src/assets/scss/_common.scss` where you can modify some of them like the background or the main color.
+
 ### Build and Deploy
 
 Deploying the site using [Github Pages](https://pages.github.com/) is quite easy, you have to edit the `package.json` file and replace the `homepage` property with your repository homepage and the run from the console `npm run deploy`. It will ask for your user name and password and that's all.
